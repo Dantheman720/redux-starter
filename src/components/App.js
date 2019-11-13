@@ -1,9 +1,9 @@
 import React from "react";
-import { selectSong } from "../actions";
+import SongList from "./SongList";
 
 const App = () => (
   <div>
-    <h1>{selectSong}</h1>
+    <SongList />
   </div>
 );
 export default App;
